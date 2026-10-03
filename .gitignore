@@ -1,0 +1,25 @@
+# Course-provided development kit (not part of this repository)
+lib/
+h/
+test/
+Makefile
+kernel.ld
+.gdbinit*
+
+# Build output
+build/
+kernel
+*.o
+*.d
+*.asm
+*.sym
+*.img
+
+# IDE
+.idea/
+.vscode/
+cmake-build-*/
+
+# OS
+.DS_Store
+Thumbs.db
